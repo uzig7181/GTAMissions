@@ -1,0 +1,48 @@
+// GTA V SCRIPT HOOK (build Jul  9 2025, v3586.0/889.19)
+//          (C) Alexander Blade 2015-2025
+[19:57:38] INIT: Started
+[19:57:58] INIT: Success, game version is VER_1_0_3586_0
+[19:57:58] INIT: Registering script 'Rampage.asi' (0x00007FF82BBAC190)
+[19:57:58] INIT: Registering script 'ScriptHookVDotNet.asi' (0x00007FF83D3E1B50)
+[19:57:59] INIT: Registering script 'TrainerV.asi' (0x00007FF8274889A0)
+[19:57:59] INIT: Registering script 'ViewPointV.asi' (0x00007FF82FCB5740)
+[19:57:59] INIT: Registering script 'WorldTravel.asi' (0x00007FF82FC891F0)
+[19:57:59] INIT: Registering script 'WorldTravel.asi' (0x00007FF82FC7E820)
+[19:57:59] INIT: Registering script 'WorldTravel.asi' (0x00007FF82FC829C0)
+[19:57:59] INIT: Registering script 'WorldTravel.asi' (0x00007FF82FC65B10)
+[19:57:59] INIT: Registering script 'WorldTravel.asi' (0x00007FF82FC82BE0)
+[19:57:59] INIT: Registering script 'WorldTravel.asi' (0x00007FF82FC697F0)
+[19:58:10] INIT: Pool 1 extended
+[19:58:10] INIT: Pool 2 extended
+[19:58:10] INIT: Pool 3 extended
+[19:58:10] INIT: Pool 4 extended
+[19:58:16] INIT: GtaThread collection size 189
+[19:58:16] INIT: wnd proc 0x00000000FFFF080F
+[19:58:16] INIT: IDXGISwapChain 0x00007FF880D4A000 (0x00007FF8256A2400)
+[19:58:16] INIT: IDXGISwapChain set
+[19:58:16] INIT: DX init started
+[19:58:16] INIT: DX feature level B000
+[19:58:16] INIT: DX init succeeded
+[19:58:55] CORE: Creating threads
+[19:58:55] CORE: Created 11 threads (including control)
+[19:58:55] CORE: Waiting to launch 'Rampage.asi' (0x00007FF82BBAC190), id 3
+[19:58:55] CORE: Waiting to launch 'ScriptHookVDotNet.asi' (0x00007FF83D3E1B50), id 4
+[19:58:55] CORE: Waiting to launch 'TrainerV.asi' (0x00007FF8274889A0), id 5
+[19:58:55] CORE: Waiting to launch 'ViewPointV.asi' (0x00007FF82FCB5740), id 6
+[19:58:55] CORE: Waiting to launch 'WorldTravel.asi' (0x00007FF82FC891F0), id 7
+[19:58:55] CORE: Waiting to launch 'WorldTravel.asi' (0x00007FF82FC7E820), id 8
+[19:58:55] CORE: Waiting to launch 'WorldTravel.asi' (0x00007FF82FC829C0), id 9
+[19:58:55] CORE: Waiting to launch 'WorldTravel.asi' (0x00007FF82FC65B10), id 10
+[19:58:55] CORE: Waiting to launch 'WorldTravel.asi' (0x00007FF82FC82BE0), id 11
+[19:58:55] CORE: Waiting to launch 'WorldTravel.asi' (0x00007FF82FC697F0), id 12
+[19:59:08] CORE: Launching main() for 'Rampage.asi' (0x00007FF82BBAC190), id 3
+[19:59:08] CORE: Launching main() for 'ScriptHookVDotNet.asi' (0x00007FF83D3E1B50), id 4
+[19:59:10] INIT: Registering script 'ViewPointV.asi' (0x00007FF83D105740)
+[19:59:10] CORE: Launching main() for 'TrainerV.asi' (0x00007FF8274889A0), id 5
+[19:59:13] CORE: Launching main() for 'ViewPointV.asi' (0x00007FF82FCB5740), id 6
+[19:59:13] CORE: Launching main() for 'WorldTravel.asi' (0x00007FF82FC891F0), id 7
+[19:59:13] CORE: Launching main() for 'WorldTravel.asi' (0x00007FF82FC7E820), id 8
+[19:59:13] CORE: Launching main() for 'WorldTravel.asi' (0x00007FF82FC829C0), id 9
+[19:59:13] CORE: Launching main() for 'WorldTravel.asi' (0x00007FF82FC65B10), id 10
+[19:59:13] CORE: Launching main() for 'WorldTravel.asi' (0x00007FF82FC82BE0), id 11
+[19:59:13] CORE: Launching main() for 'WorldTravel.asi' (0x00007FF82FC697F0), id 12
