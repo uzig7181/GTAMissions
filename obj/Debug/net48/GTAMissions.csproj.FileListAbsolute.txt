@@ -1,0 +1,10 @@
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.csproj.AssemblyReference.cache
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.GeneratedMSBuildEditorConfig.editorconfig
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.AssemblyInfoInputs.cache
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.AssemblyInfo.cs
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.csproj.CoreCompileInputs.cache
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.sourcelink.json
+F:\GTAMissions\github\GTAMissions git\GTAMissions\bin\Debug\net48\GTAMissions.dll
+F:\GTAMissions\github\GTAMissions git\GTAMissions\bin\Debug\net48\GTAMissions.pdb
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.dll
+F:\GTAMissions\github\GTAMissions git\GTAMissions\obj\Debug\net48\GTAMissions.pdb

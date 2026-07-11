@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
+    <RootNamespace>GTAMissions</RootNamespace>
+    <AssemblyName>GTAMissions</AssemblyName>
+    <LangVersion>latest</LangVersion>
+
+    <!--
+      Path to your GTA V "Legacy" install. Used to locate the ScriptHookVDotNet3
+      assembly to compile against, and to auto-deploy the built script below.
+      Update this if you ever move the game or work on another machine.
+    -->
+    <GtaInstallDir>F:\GTA5\Grand Theft Auto V Legacy\</GtaInstallDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GTAMissions_FULL_BACKUP_*\**\*.cs" />
+    <EmbeddedResource Remove="GTAMissions_FULL_BACKUP_*\**\*" />
+    <None Remove="GTAMissions_FULL_BACKUP_*\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Reference the ScriptHookVDotNet3 build already installed/running in-game,
+         so the API version we compile against always matches what's loaded. -->
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>$(GtaInstallDir)ScriptHookVDotNet3.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <!-- Drop the compiled mission DLL straight into GTA V's scripts folder after every build. -->
+  <Target Name="DeployToGame" AfterTargets="Build">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GtaInstallDir)scripts\" SkipUnchangedFiles="false" />
+    <Copy SourceFiles="$(TargetDir)$(TargetName).pdb" DestinationFolder="$(GtaInstallDir)scripts\" Condition="Exists('$(TargetDir)$(TargetName).pdb')" SkipUnchangedFiles="false" />
+  </Target>
+
+</Project>
